@@ -149,6 +149,15 @@ li {
     width: 100%;
 }
 
+@media (hover: none) {
+    #left:hover {
+        background-color: black;
+    }
+    #right:hover {
+        background-color: black;
+    }
+}
+
 @media screen and (min-width: 600px) {
     .heropic {
         height: 60vh;
