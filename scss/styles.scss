@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    max-width: 100vw;
+    font-family: 'Spartan', sans-serif;
+}
+
+p {
+    line-height: 27px;
+    color: rgb(146, 146, 146);
+}
+
+h1 {
+   font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.aboutfurniture {
+    margin-top: 60px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.heropic {
+    transition: 0.4s ease-in-out;
+    background-image: url(../images/mobile-image-hero-1.jpg);
+    height: 55vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+    position: relative;
+    z-index: 3;
+}
+
+.hamburger {
+ position: absolute;
+ top: 10%;
+ left: 5%;
+
+ }
+
+.room {
+    font-weight: 500;
+    color: white;
+    position: absolute;
+ top: 7%;
+ left: 37%;
+    margin: 0;
+}
+
+.navoverlay {
+   
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+   visibility: hidden;
+    z-index: 10;
+    box-shadow: 2px 2px 12px 11px rgba(90, 90, 90, 0.438);
+}
+
+ul {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    align-self: center;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li {
+    margin-right: 19px;
+}
+
+.close {
+ padding-right: 15px;
+}
+
+#left {
+    background-image: url(../images/icon-angle-left.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 17%;
+    padding: 35px;
+    &:hover {
+        background-color: gray;
+    } 
+}
+
+#right {
+    background-image: url(../images/icon-angle-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 17%;
+    padding: 35px;
+    &:hover {
+        background-color: gray;
+    } 
+}
+
+.sliderwrap {
+    display: flex;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.discover, .about {
+    margin: auto;
+    width: 90%;
+}
+
+.shopwrap {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.shopnow {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.arrow {
+    margin-left: 15px;
+}
+
+
+
+.middleimg {
+    background-image: url(../images/image-about-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 30vh;
+    width: 100%;
+}
+
+.bottomimg {
+    background-image: url(../images/image-about-light.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 30vh;
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .heropic {
+        height: 60vh;
+    }
+    .middleimg {
+        height: 40vh;
+    }
+    .bottomimg {
+        height: 40vh;
+    }
+
+}
