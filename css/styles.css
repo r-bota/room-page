@@ -154,36 +154,43 @@ li {
     background-color: black;
   }
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 675px) {
   .desktopupper {
     display: flex;
-    height: 70vh;
+    height: 60vh;
   }
 
   .heropic {
-    width: 65%;
+    width: 60%;
     height: 100%;
+    background-image: url("../images/desktop-image-hero-1.jpg");
   }
 
   .discover {
-    width: 30%;
-    height: 100%;
-    padding: 65px;
+    margin: 0;
+    width: 40%;
+    padding: 30px;
+  }
+  .discover h1 {
+    font-size: 1.3rem;
+  }
+  .discover p {
+    font-size: 0.8rem;
   }
 
   .desktoplower {
     display: flex;
-    height: 30vh;
+    height: 40vh;
   }
 
   .middleimg, .bottomimg {
-    width: 35%;
+    width: 45%;
     height: 100%;
   }
 
   .about {
     font-size: 0.8rem;
-    padding: 25px;
+    padding: 35px;
     margin-top: 20px;
   }
 
