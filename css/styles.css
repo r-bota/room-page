@@ -154,17 +154,47 @@ li {
     background-color: black;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 375px) {
+  .desktopupper {
+    display: flex;
+    height: 70vh;
+  }
+
   .heropic {
-    height: 60vh;
+    width: 65%;
+    height: 100%;
   }
 
-  .middleimg {
-    height: 40vh;
+  .discover {
+    width: 30%;
+    height: 100%;
+    padding: 65px;
   }
 
-  .bottomimg {
-    height: 40vh;
+  .desktoplower {
+    display: flex;
+    height: 30vh;
+  }
+
+  .middleimg, .bottomimg {
+    width: 35%;
+    height: 100%;
+  }
+
+  .about {
+    font-size: 0.8rem;
+    padding: 25px;
+    margin-top: 20px;
+  }
+
+  .aboutfurniture {
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 1rem;
+  }
+
+  .sliderwrap {
+    display: none;
   }
 }
 

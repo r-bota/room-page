@@ -158,15 +158,48 @@ li {
     }
 }
 
-@media screen and (min-width: 600px) {
-    .heropic {
-        height: 60vh;
-    }
-    .middleimg {
-        height: 40vh;
-    }
-    .bottomimg {
-        height: 40vh;
-    }
+@media screen and (min-width: 375px) {
+ 
+.desktopupper {
+    display: flex;
+    height: 70vh;
+}
 
+.heropic {
+    width: 65%;
+    height: 100%;
+}
+.discover {
+    width: 30%;
+    height: 100%;
+    padding: 65px;
+
+}
+
+.desktoplower {
+    display: flex;
+    height:30vh;
+}
+
+.middleimg, .bottomimg {
+    width: 35%;
+    height: 100%;
+}
+
+.about {
+    font-size: 0.8rem;
+    padding: 25px;
+    margin-top: 20px;
+ 
+}
+
+.aboutfurniture {
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+.sliderwrap {
+ display: none;
+}
 }
