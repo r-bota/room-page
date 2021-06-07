@@ -149,6 +149,10 @@ li {
     width: 100%;
 }
 
+.sliderwrap-desktop {
+    display: none;
+}
+
 @media (hover: none) {
     #left:hover {
         background-color: black;
@@ -233,6 +237,28 @@ li {
     position: absolute;
     bottom: 0;
  
+}
+
+#desktopleft {
+    background-image: url(../images/icon-angle-left.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 17%;
+    padding: 35px;
+    &:hover {
+        background-color: gray;
+    } 
+}
+
+#desktopright {
+    background-image: url(../images/icon-angle-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 17%;
+    padding: 35px;
+    &:hover {
+        background-color: gray;
+    } 
 }
 
 }
