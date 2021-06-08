@@ -8,6 +8,9 @@ a {
   text-decoration: none;
   color: white;
 }
+a:hover {
+  text-decoration: underline;
+}
 
 p {
   line-height: 27px;
@@ -117,6 +120,9 @@ h1 {
   bottom: 0;
   right: 0;
 }
+.sliderwrap:hover {
+  cursor: pointer;
+}
 
 .discover, .about {
   display: flex;
@@ -143,6 +149,11 @@ h1 {
   font-weight: 400;
   text-decoration: none;
   color: black;
+}
+.shopnow:hover {
+  color: #a1a1a1;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .arrow {
@@ -275,6 +286,9 @@ h1 {
     width: 140px;
     position: absolute;
     bottom: 0;
+  }
+  .sliderwrap-desktop:hover {
+    cursor: pointer;
   }
 
   #desktopleft {

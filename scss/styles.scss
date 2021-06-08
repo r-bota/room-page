@@ -6,7 +6,11 @@ body {
 
 
 a { text-decoration: none;
-    color: white}
+    color: white;
+    &:hover {
+        text-decoration: underline;
+    }
+}
 
 p {
     line-height: 27px;
@@ -17,6 +21,7 @@ h1 {
    font-size: 2.2rem;
     font-weight: 600;
 }
+
 
 .aboutfurniture {
     font-weight: 700;
@@ -117,6 +122,9 @@ h1 {
     position: absolute;
     bottom: 0;
     right: 0;
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .discover, .about {
@@ -144,6 +152,11 @@ h1 {
     font-weight: 400;
     text-decoration: none;
     color: black;
+    &:hover {
+        color: hsl(0, 0%, 63%);
+        cursor: pointer;
+        text-decoration: none;
+    }
 }
 
 .arrow {
@@ -288,7 +301,9 @@ p {
     width: 140px;
     position: absolute;
     bottom: 0;
- 
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 #desktopleft {
