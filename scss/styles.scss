@@ -4,6 +4,10 @@ body {
     font-family: 'Spartan', sans-serif;
 }
 
+
+a { text-decoration: none;
+    color: white}
+
 p {
     line-height: 27px;
     color: rgb(146, 146, 146);
@@ -31,6 +35,10 @@ h1 {
     margin: 0;
     position: relative;
     z-index: 3;
+}
+
+.desktopnav {
+    display: none;
 }
 
 .hamburger {
@@ -72,6 +80,9 @@ h1 {
 
 .mobileli {
     margin-right: 19px;
+    & a {
+        color: black;
+    }
 }
 
 .close {
@@ -188,19 +199,22 @@ p {
 }
 
 
-
 .desktopnav {
+    margin-top: 35px;
     align-items: center;
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    width: 50%;
     & li:nth-child(1) {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         margin-right: 40px;
     }
     & li {
+        margin-left: 5px;
         font-size: .9rem;
         color:white;
-        margin-left: 25px;
+   
     }
 }
 
