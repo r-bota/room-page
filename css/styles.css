@@ -126,6 +126,7 @@ h1 {
 }
 
 .discover h1 {
+  font-weight: 700;
   font-size: 1.85rem;
   line-height: 36px;
 }
