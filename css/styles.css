@@ -20,9 +20,9 @@ h1 {
 }
 
 .aboutfurniture {
-  margin-top: 60px;
-  font-size: 1.5rem;
-  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
@@ -119,8 +119,15 @@ h1 {
 }
 
 .discover, .about {
-  margin: auto;
-  width: 90%;
+  display: flex;
+  align-items: center;
+  margin: 40px auto;
+  width: 80%;
+}
+
+.discover h1 {
+  font-size: 1.85rem;
+  line-height: 36px;
 }
 
 .shopwrap {
