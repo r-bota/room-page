@@ -41,9 +41,9 @@ dtRight.addEventListener("click", () => {
 })
 
 dtLeft.addEventListener("click", () => {
-    picNum += 1;
-    if (picNum === 4) {
-        picNum = 1;
+    picNum -= 1;
+    if (picNum === 0) {
+        picNum = 3;
     }
     hero.style.backgroundImage = `url(images/desktop-image-hero-${picNum}.jpg)`;
 })

@@ -11,7 +11,7 @@ a {
 
 p {
   line-height: 27px;
-  color: #929292;
+  color: #a1a1a1;
 }
 
 h1 {
@@ -221,7 +221,7 @@ h1 {
     position: relative;
   }
   .discover h1 {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
   }
   .discover p {
     font-size: 0.8rem;
