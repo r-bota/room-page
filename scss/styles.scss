@@ -252,23 +252,25 @@ p {
 }
 
 .about {
+    display: flex;
+    align-items: center;
     width: 50%;
     font-size: 0.8rem;
-    margin: 35px;
-    margin-top: 20px;
+
  
 }
 
 .aboutfurniture {
-    margin-top: 25px;
+    margin: 0;
     letter-spacing: 2px;
     font-size: 1rem;
 }
 
 .desktoptextwrap-about {
     
-    width: 95%;
+    width: 90%;
     margin: auto;
+
     
 }
 
